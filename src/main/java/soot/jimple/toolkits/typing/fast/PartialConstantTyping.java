@@ -72,7 +72,9 @@ class PartialConstantTyping implements ITyping {
   @Override
   public Map<Local, Type> getMap() {
     //This is expensive, so we try to avoid it
-    Map<Local, Type> m = new HashMap<>(constantTypings);
+    final Map<Local, Type> innerMap = inner.getMap();
+    Map<Local, Type> m = new HashMap<>(constantTypings.size() + innerMap.size());
+    m.putAll(constantTypings);
     m.putAll(inner.getMap());
     return m;
   }
