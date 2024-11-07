@@ -24,8 +24,8 @@ package soot;
 
 import heros.solver.Pair;
 
+import java.util.HashMap;
 import java.util.Map;
-import java.util.concurrent.ConcurrentHashMap;
 import java.util.function.Function;
 
 import soot.Singletons.Global;
@@ -36,7 +36,7 @@ import soot.Singletons.Global;
  * @author Marc Miltenberger
  */
 public class ArrayTypeCache {
-  private final Map<Pair<Type, Integer>, ArrayType> cache = new ConcurrentHashMap<>();
+  private final Map<Pair<Type, Integer>, ArrayType> cache = new HashMap<>();
 
   private final Function<Pair<Type, Integer>, ArrayType> mapping = new Function<Pair<Type, Integer>, ArrayType>() {
 
@@ -51,7 +51,7 @@ public class ArrayTypeCache {
         if (ret == null) {
           int n = orgDimensions - numDimensions + 1;
           if (n != orgDimensions) {
-            ret = cache.computeIfAbsent(new Pair<>(baseType, n), mapping);
+            ret = getArrayType(baseType, n);
           } else {
             ret = new ArrayType(baseType, n);
           }
@@ -76,10 +76,19 @@ public class ArrayTypeCache {
    * @param numDimensions the number of dimensions
    * @return the array type
    */
-  public ArrayType getArrayType(Type baseType, int numDimensions) {
+  //We are doing this synchronized now to ensure correctness:
+  //Already creating a new ArrayType adds it to the type numberer, so we must not create
+  //the same array type twice. Furthermore, the ConcurrentHashMap's computeIfAbsent
+  //method does not allow the update of other keys in while a value is computed.
+  public synchronized ArrayType getArrayType(Type baseType, int numDimensions) {
     Pair<Type, Integer> pairSearch = new Pair<>(baseType, numDimensions);
+    ArrayType res = cache.get(pairSearch);
+    if (res == null) {
+      res = mapping.apply(pairSearch);
+      cache.put(pairSearch, res);
+    }
 
-    return cache.computeIfAbsent(pairSearch, mapping);
+    return res;
 
   }
 
