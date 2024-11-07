@@ -51,7 +51,7 @@ public class ArrayTypeCache {
         if (ret == null) {
           int n = orgDimensions - numDimensions + 1;
           if (n != orgDimensions) {
-            ret = cache.computeIfAbsent(new Pair<>(baseType, n), mapping);
+            ret = getArrayType(baseType, n);
           } else {
             ret = new ArrayType(baseType, n);
           }
@@ -82,8 +82,13 @@ public class ArrayTypeCache {
   //method does not allow the update of other keys in while a value is computed.
   public synchronized ArrayType getArrayType(Type baseType, int numDimensions) {
     Pair<Type, Integer> pairSearch = new Pair<>(baseType, numDimensions);
+    ArrayType res = cache.get(pairSearch);
+    if (res == null) {
+      res = mapping.apply(pairSearch);
+      cache.put(pairSearch, res);
+    }
 
-    return cache.computeIfAbsent(pairSearch, mapping);
+    return res;
 
   }
 
