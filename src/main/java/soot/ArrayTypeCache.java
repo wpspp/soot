@@ -24,8 +24,8 @@ package soot;
 
 import heros.solver.Pair;
 
+import java.util.HashMap;
 import java.util.Map;
-import java.util.concurrent.ConcurrentHashMap;
 import java.util.function.Function;
 
 import soot.Singletons.Global;
@@ -36,7 +36,7 @@ import soot.Singletons.Global;
  * @author Marc Miltenberger
  */
 public class ArrayTypeCache {
-  private final Map<Pair<Type, Integer>, ArrayType> cache = new ConcurrentHashMap<>();
+  private final Map<Pair<Type, Integer>, ArrayType> cache = new HashMap<>();
 
   private final Function<Pair<Type, Integer>, ArrayType> mapping = new Function<Pair<Type, Integer>, ArrayType>() {
 
@@ -76,7 +76,11 @@ public class ArrayTypeCache {
    * @param numDimensions the number of dimensions
    * @return the array type
    */
-  public ArrayType getArrayType(Type baseType, int numDimensions) {
+  //We are doing this synchronized now to ensure correctness:
+  //Already creating a new ArrayType adds it to the type numberer, so we must not create
+  //the same array type twice. Furthermore, the ConcurrentHashMap's computeIfAbsent
+  //method does not allow the update of other keys in while a value is computed.
+  public synchronized ArrayType getArrayType(Type baseType, int numDimensions) {
     Pair<Type, Integer> pairSearch = new Pair<>(baseType, numDimensions);
 
     return cache.computeIfAbsent(pairSearch, mapping);
