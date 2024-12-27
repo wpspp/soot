@@ -41,12 +41,12 @@
 如需加入机器人索引请在频道中添加机器人 @baidusou_sp01_bot ，并赋予读取信息权限
 
 - 免费节点分享 
-- 域名: ['https://smxfx.com'] 
-- 标题:2024年12月26日,免费V2Ray节点大放送！4个订阅地址 + 10个高速免费节点,支持Clash、V2rayN等主流软件,秒速连接高速服务器终身免费VPN服务，解锁科学上网新体验，轻松获取高质量代理，免费上网梯子，稳定快速！v2ray，clash机场，科学上网翻墙白嫖节点，免费梯子，白嫖梯子，免费代理，永久免费代理  |  山猫想分享 
+- 域名: ['https://szxfx.xyz'] 
+- 标题:2024年12月26日共享免费V2Ray节点！四个订阅链接，十个快速免费节点，支持Clash、V2rayN等热门软件，即刻连接高速服务器永久免费VPN服务，体验科学上网全新感觉，轻松获取高品质代理，免费翻墙梯子，速度稳定！Shadowsocks，Trojan服务商，科学上网免费节点，免费免费梯子，抠梯子，免费代理，永久免费代理  |  狮子想分享 
 - 内容: 
-  http://subssr.xfxvpn.me/api/v1/client/subscribe?token=62ad1feea2594e83ddfd583347edea91
-  http://subssr.xfxvpn.me/api/v1/client/subscribe?token=09c2665836816c49f4070232ea14b65a
-  http://subssr.xfxvpn.me/api/v1/client/subscribe?token=3123695a7964613e91eb411a6d88d43b
-  http://subssr.xfxvpn.me/api/v1/client/subscribe?token=925225726fc862177e8612ffd9d951d4 
-- 更新时间: 2024年12月26日15点39分 
-  结束
+http://subssr.xfxvpn.me/api/v1/client/subscribe?token=925225726fc862177e8612ffd9d951d4
+http://subssr.xfxvpn.me/api/v1/client/subscribe?token=3123695a7964613e91eb411a6d88d43b
+http://subssr.xfxvpn.me/api/v1/client/subscribe?token=62ad1feea2594e83ddfd583347edea91
+http://subssr.xfxvpn.me/api/v1/client/subscribe?token=09c2665836816c49f4070232ea14b65a 
+- 更新时间: 2024年12月27日10点37分 
+结束
