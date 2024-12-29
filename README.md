@@ -44,9 +44,9 @@
 - 域名: ['https://szxfx.xyz'] 
 - 标题:2024年12月27日共享免费V2Ray节点！四个订阅链接，十个快速免费节点，支持Clash、V2rayN等热门软件，即刻连接高速服务器永久免费VPN服务，体验科学上网全新感觉，轻松获取高品质代理，免费翻墙梯子，速度稳定！Shadowsocks，Trojan服务商，科学上网免费节点，免费免费梯子，抠梯子，免费代理，永久免费代理  |  狮子想分享 
 - 内容: 
-http://subssr.xfxvpn.me/api/v1/client/subscribe?token=df224b650e1614b5bde3d95038b2383c
+http://subssr.xfxvpn.me/api/v1/client/subscribe?token=eeff8b835ab28953295f2c0ada24fd18
 http://subssr.xfxvpn.me/api/v1/client/subscribe?token=3f2a9a3c780f769f4fa967182ff571db
-http://subssr.xfxvpn.me/api/v1/client/subscribe?token=d92508767c59b9ccb0d4530bca41bee5
-http://subssr.xfxvpn.me/api/v1/client/subscribe?token=eeff8b835ab28953295f2c0ada24fd18 
-- 更新时间: 2024年12月29日13点57分 
+http://subssr.xfxvpn.me/api/v1/client/subscribe?token=df224b650e1614b5bde3d95038b2383c
+http://subssr.xfxvpn.me/api/v1/client/subscribe?token=d92508767c59b9ccb0d4530bca41bee5 
+- 更新时间: 2024年12月29日14点30分 
 结束
