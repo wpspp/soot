@@ -45,8 +45,8 @@
 - 标题:2025年1月10日共享免费V2Ray节点！四个订阅链接，十个快速免费节点，支持Clash、V2rayN等热门软件，即刻连接高速服务器永久免费VPN服务，体验科学上网全新感觉，轻松获取高品质代理，免费翻墙梯子，速度稳定！Shadowsocks，Trojan服务商，科学上网免费节点，免费免费梯子，抠梯子，免费代理，永久免费代理  |  狮子想分享 
 - 内容: 
 http://subssr.xfxvpn.me/api/v1/client/subscribe?token=49e798f315ae68170e3e9b7b89dc8cbd
+http://subssr.xfxvpn.me/api/v1/client/subscribe?token=f3bc6f62cb924a11b8e94286ec585983
 http://subssr.xfxvpn.me/api/v1/client/subscribe?token=5dc58ecf3ea30aa56e7d3aaed8248dd2
-http://subssr.xfxvpn.me/api/v1/client/subscribe?token=ae379e21573091d4c50048eebccaaedb
-http://subssr.xfxvpn.me/api/v1/client/subscribe?token=f3bc6f62cb924a11b8e94286ec585983 
-- 更新时间: 2025年01月11日00点35分 
+http://subssr.xfxvpn.me/api/v1/client/subscribe?token=ae379e21573091d4c50048eebccaaedb 
+- 更新时间: 2025年01月11日00点48分 
 结束
