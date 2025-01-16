@@ -42,11 +42,11 @@
 
 - 免费节点分享 
 - 域名: ['https://szxfx.xyz'] 
-- 标题:2025年1月15日共享免费V2Ray节点！四个订阅链接，十个快速免费节点，支持Clash、V2rayN等热门软件，即刻连接高速服务器永久免费VPN服务，体验科学上网全新感觉，轻松获取高品质代理，免费翻墙梯子，速度稳定！Shadowsocks，Trojan服务商，科学上网免费节点，免费免费梯子，抠梯子，免费代理，永久免费代理  |  狮子想分享 
+- 标题:2025年1月16日共享免费V2Ray节点！四个订阅链接，十个快速免费节点，支持Clash、V2rayN等热门软件，即刻连接高速服务器永久免费VPN服务，体验科学上网全新感觉，轻松获取高品质代理，免费翻墙梯子，速度稳定！Shadowsocks，Trojan服务商，科学上网免费节点，免费免费梯子，抠梯子，免费代理，永久免费代理  |  狮子想分享 
 - 内容: 
-http://subssr.xfxvpn.me/api/v1/client/subscribe?token=aa211a2c3aeacc6a988a093981def89f
-http://subssr.xfxvpn.me/api/v1/client/subscribe?token=438c38c020daecbee455d58082ac8dc2
-http://subssr.xfxvpn.me/api/v1/client/subscribe?token=41e66d340a23e8302a4858da443e5f30
-http://subssr.xfxvpn.me/api/v1/client/subscribe?token=df653b5f798c395fb0f735df060854e5 
-- 更新时间: 2025年01月16日09点47分 
+http://subssr.xfxvpn.me/api/v1/client/subscribe?token=94cf85cd3fc3a6854ae6f433575753e1
+http://subssr.xfxvpn.me/api/v1/client/subscribe?token=b57dc991841580dafa2e91801fa34c1f
+http://subssr.xfxvpn.me/api/v1/client/subscribe?token=c7f840ccedce1c32cb256c9c76f9c963
+http://subssr.xfxvpn.me/api/v1/client/subscribe?token=844f7b6d7bc288066276df043ef0b315 
+- 更新时间: 2025年01月16日10点36分 
 结束
