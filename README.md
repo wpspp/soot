@@ -44,14 +44,14 @@
 - 域名: ['https://szxfx.xyz'] 
 - 标题:2025年4月26日发布免费V2Ray节点信息！10个订阅链接，20个高速免费节点，支持Clash、V2rayN等常用软件，体验科学上网的全新方式，轻松获得高质量的代理，享受免费上网服务，稳定快速！Shadowsocks，Trojan机场，科学上网翻墙免费节点，免费VPN，免费翻墙服务，免费代理服务器，永久免费代理服务  |  狮子想分享 
 - 内容: 
-http://subxfxssr.xfxvpn.me/api/v1/client/subscribe?token=66e6ed25b032c4600e12ff2555c372cc
-http://subxfxssr.xfxvpn.me/api/v1/client/subscribe?token=801e0b7f22651eac796be54c4d2819b7
-http://subxfxssr.xfxvpn.me/api/v1/client/subscribe?token=600d321801bb99c94c6b6d8a7fc78d6b
-http://subxfxssr.xfxvpn.me/api/v1/client/subscribe?token=0e2f9d521c9d128b23ac5d1471f32d54
+http://subxfxssr.xfxvpn.me/api/v1/client/subscribe?token=cb3bbf8fb288486c542f716176fb860e
 http://subxfxssr.xfxvpn.me/api/v1/client/subscribe?token=d6945a4f2601e422090924dd145eab3a
 http://subxfxssr.xfxvpn.me/api/v1/client/subscribe?token=4a05206c0b7133ad4e6df4c464eb31e4
-http://subxfxssr.xfxvpn.me/api/v1/client/subscribe?token=cb3bbf8fb288486c542f716176fb860e
-http://subxfxssr.xfxvpn.me/api/v1/client/subscribe?token=e65221603660c0f5cdc4b3112fc29d55
-http://subxfxssr.xfxvpn.me/api/v1/client/subscribe?token=fac9f774df0ab69e6ad0f84dc6f08a41 
-- 更新时间: 2025年04月27日07点21分 
+http://subxfxssr.xfxvpn.me/api/v1/client/subscribe?token=801e0b7f22651eac796be54c4d2819b7
+http://subxfxssr.xfxvpn.me/api/v1/client/subscribe?token=0e2f9d521c9d128b23ac5d1471f32d54
+http://subxfxssr.xfxvpn.me/api/v1/client/subscribe?token=600d321801bb99c94c6b6d8a7fc78d6b
+http://subxfxssr.xfxvpn.me/api/v1/client/subscribe?token=66e6ed25b032c4600e12ff2555c372cc
+http://subxfxssr.xfxvpn.me/api/v1/client/subscribe?token=fac9f774df0ab69e6ad0f84dc6f08a41
+http://subxfxssr.xfxvpn.me/api/v1/client/subscribe?token=e65221603660c0f5cdc4b3112fc29d55 
+- 更新时间: 2025年04月27日07点38分 
 结束
